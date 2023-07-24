@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body{
+            background: linear-gradient(90deg, #bc0000, #00600a);
+            }
+            h1{
+                background-color: rgba(180, 180, 180, 0.912);
+                border-radius: 15px;
+                padding: 15px;
+                width: fit-content;
+            }
+            iframe{width: 30%;
+                margin: 15px;
+                height: 30vh;
+                border-radius: 10px;
+            }
+            a{
+               text-decoration: none;
+                color: white;
+                background: rgba(0, 0, 0, 0);
+            }
+            span.caption{
+                background-color: rgba(0, 0, 0, 0.23);
+                border-radius: 20px;
+                padding: 20px;
+            }
+            .row2{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+    </style>
+</head>
+<body>
+    <h1> My Web Development Projects- </h1> 
+    <div class="row2">
+    <iframe src="Survey Form.html"></iframe>
+    <iframe src="ChatBot/ChatBot.html"></iframe>
+    <iframe src="To-do list app/To do list app.html"></iframe></div>
+    <div class="row2">
+        <span class="caption"><a href="Survey Form.html">Survey Form</a></span>
+        <span class="caption"><a href="ChatBot/ChatBot.html">Chatbot</a></span>
+        <span class="caption"><a href="To-do list app/To do list app.html">To do list Maker</a></span></div>
+    <div class="row2">
+    <iframe src="Calculator.html"></iframe>
+    <iframe src="Analog Clock.html"></iframe>
+    <iframe src="Digital Stopwatch.html"></iframe>
+    </div>
+    <div class="row2">
+        <span class="caption"><a href="Calculator.html">Calculator</a></span>
+        <span class="caption"><a href="Analog Clock.html">Analog Clock</a></span>
+        <span class="caption"><a href="Digital Stopwatch.html">Digital Stopwatch</a></span>        
+    </div>
+</body>
+</html>
