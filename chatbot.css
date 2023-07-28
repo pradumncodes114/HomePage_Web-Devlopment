@@ -1,0 +1,97 @@
+body{background-color: rgb(156, 220, 255) ;}
+
+div.container{margin:auto;
+    background:linear-gradient(180deg,black,grey);
+    max-width: 750px;  
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ; 
+    text-align: center; 
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+div.Chat{margin:auto;
+    max-width: 90%;
+    background-color: antiquewhite;
+    border: solid 2px black; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+    padding: 10px;
+}
+p{margin:2px;}
+
+div.history{
+    padding: 5px;
+    height: 425px;
+    overflow:scroll;
+}
+div.system{text-align: left;
+    margin-bottom: 10px;
+    background-color: rgb(0, 166, 255);
+    border-radius: 10px;
+    max-width: fit-content;
+    padding:5px;
+    box-shadow: 0px 0px 5px rgb(0, 117, 180);
+}
+div.user{
+    text-align: left;
+    background-color: rgb(149, 88, 255);
+    border-radius: 10px;
+    max-width: fit-content;
+    margin:auto;
+    margin-right: 5px;
+    margin-bottom: 10px; 
+    padding:5px;   
+    box-shadow: 0px 0px 5px rgb(70, 0, 190);
+}
+input.Submit{min-width: 120px;
+    font-weight: bolder;
+    min-height: 30px;
+    background-color: rgb(33, 244, 0);
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: rgb(24, 181, 0);
+    border-style:solid;
+    cursor:pointer;
+}
+.Send{
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgb(149, 88, 255);
+    border-style: hidden;
+    cursor:pointer;
+    margin-right: 0;
+}
+input.Submit:hover{background-color: rgb(24, 181, 0);}
+.Send:hover{background-color: rgb(70, 0, 190)}
+input.text{
+    flex: 1;
+    border-style: none;
+    outline: none;
+    padding: 2px;
+    padding-left: 5px;
+    margin: 5px;
+    margin-right: 0;
+}
+
+img{width: 50%;}
+
+.textbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+
+}
+::-webkit-scrollbar{
+    width: 7px;
+    height: 0;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(52, 52, 52, 0.518);
+    border-radius: 10px;
+}
